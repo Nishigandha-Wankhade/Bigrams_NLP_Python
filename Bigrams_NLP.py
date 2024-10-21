@@ -1,10 +1,14 @@
+"""
+Finding Bigrams in the given Text file "nyt_200811.txt
+Nishigandha Wankhade
+"""
 # I will use a Python shell to simulate the UNIX commands and get the most frequent words in the text file. 
 # Here's the pipeline:
 # 1. Load the text.
 # 2. Use 'tr' to replace non-alphabetic characters with newline characters, convert to lowercase, and sort.
 # 3. Use 'uniq -c' to count the frequency of each word.
 
-file_path = "C:/Users/wankh/Desktop/CUMBERLAND DOCUMENTS/ZZ_FALL_2024/NLP/WEEK 2/nyt_200811.txt"
+file_path = "C:/Users/nyt_200811.txt"
 
 # Load the text
 with open(file_path, 'r') as file:
